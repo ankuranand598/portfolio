@@ -43,7 +43,7 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            " Creative, hard-working and diligent Full-stack web developer with a keen interest in learning new tech stacks.Designing web pages and their functions always amused😕 me, soon I realized I wanted to become a web developer 👩‍💻. This led me to choose full-stack web development and I joined Masai School.I am passionate about developing web pages and I'm interested in developing backend using JavaScript.I am highly motivated😎 by the methods and thoughts of the HadZabe tribes.I also enjoy🤩 reading and writing codes. Seeking to enhance my knowledge and skills while taking up a challenging role in an organization.",
+            " Creative, hard-working and diligent Full-stack web developer with a keen interest in learning new tech stacks. Designing web pages and their functions always amused😕 me, soon I realized I wanted to become a web developer 👩‍💻. This led me to choose full-stack web development and I joined Masai School. I love to learn about developing web pages and I'm interested in developing backend using JavaScript. I value😎 the methods and thoughts of the HadZabe tribes. I also enjoy🤩 reading and writing codes. Seeking to enhance my knowledge and skills while taking up a challenging role in an organization.",
         },
         // {
         //   id: "second-p-about",
