@@ -1,5 +1,10 @@
 import React from "react";
-import myImage from "../img/myImage.png";
+import myImage from "../img/icons8-html-5.svg";
+import myImage1 from "../img/icons8-css3.svg";
+import myImage2 from "../img/icons8-react.svg";
+import myImage3 from "../img/icons8-redux.svg";
+import myImage4 from "../img/icons8-node-js.svg";
+import myImage5 from "../img/icons8-javascript.svg";
 class About extends React.Component {
   constructor() {
     super();
@@ -43,7 +48,7 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            " Creative, hard-working and diligent Full-stack web developer with a keen interest in learning new tech stacks. Designing web pages and their functions always amused😕 me, soon I realized I wanted to become a web developer 👩‍💻. This led me to choose full-stack web development and I joined Masai School. I love to learn about developing web pages and I'm interested in developing backend using JavaScript. I value😎 the methods and thoughts of the HadZabe tribes. I also enjoy🤩 reading and writing codes. Seeking to enhance my knowledge and skills while taking up a challenging role in an organization.",
+            " Creative, hard-working and diligent Full-stack web developer with a keen interest in learning new tech stacks.Designing web pages and their functions always amused me, soon I realized I wanted to become a web developer 👩‍💻. This led me to choose full-stack web development and I joined Masai School.I am passionate about developing web pages and I'm interested in developing backend using JavaScript.I am highly motivated😎 by the methods and thoughts of the HadZabe tribes.I also enjoy🤩 reading and writing codes. Seeking to enhance my knowledge and skills while taking up a challenging role in an organization.",
         },
         // {
         //   id: "second-p-about",
@@ -114,18 +119,99 @@ class About extends React.Component {
                   className="row"
                   style={{ display: "flex", justifyContent: "space-evenly" }}
                 >
-                  <img style={{ height: "100px" }} src="icons8-html-5.svg" />
-                  <img style={{ height: "100px" }} src="icons8-css3.svg" />
-                  <img
-                    style={{ height: "100px" }}
-                    src="https://img.icons8.com/ultraviolet/50/000000/react--v2.png"
-                  />
-                  <img style={{ height: "100px" }} src="icons8-redux.svg" />
-                  <img style={{ height: "100px" }} src="icons8-node-js.svg" />
-                  <img
-                    style={{ height: "100px" }}
-                    src="icons8-javascript.svg"
-                  />
+                  <div
+                    style={{
+                      border: "none",
+                      height: "110px",
+                      width: "110px",
+                      background: "#e9ecef",
+                      borderRadius: "50%",
+                      textAlign: "center",
+                    }}
+                  >
+                    <img
+                      style={{ height: "100px", marginTop: "10px" }}
+                      src={myImage}
+                    />
+                  </div>
+                  <div
+                    style={{
+                      border: "none",
+                      height: "110px",
+                      width: "110px",
+                      background: "#e9ecef",
+                      borderRadius: "50%",
+                      textAlign: "center",
+                    }}
+                  >
+                    {" "}
+                    <img
+                      style={{ height: "100px", marginTop: "10px" }}
+                      src={myImage1}
+                    />
+                  </div>
+                  <div
+                    style={{
+                      border: "none",
+                      height: "110px",
+                      width: "110px",
+                      background: "#e9ecef",
+                      borderRadius: "50%",
+                      textAlign: "center",
+                    }}
+                  >
+                    {" "}
+                    <img
+                      style={{ height: "100px", marginTop: "5px" }}
+                      src="https://img.icons8.com/ultraviolet/50/000000/react--v2.png"
+                    />
+                  </div>
+                  <div
+                    style={{
+                      border: "none",
+                      height: "110px",
+                      width: "110px",
+                      background: "#e9ecef",
+                      borderRadius: "50%",
+                      textAlign: "center",
+                    }}
+                  >
+                    <img
+                      style={{ height: "100px", marginTop: "1px" }}
+                      src={myImage3}
+                    />
+                  </div>
+                  <div
+                    style={{
+                      border: "none",
+                      height: "110px",
+                      width: "110px",
+                      background: "#e9ecef",
+                      borderRadius: "50%",
+                      textAlign: "center",
+                    }}
+                  >
+                    {" "}
+                    <img
+                      style={{ height: "100px", marginTop: "5px" }}
+                      src={myImage4}
+                    />
+                  </div>
+                  <div
+                    style={{
+                      border: "none",
+                      height: "110px",
+                      width: "110px",
+                      background: "#e9ecef",
+                      borderRadius: "50%",
+                      textAlign: "center",
+                    }}
+                  >
+                    <img
+                      style={{ height: "100px", marginTop: "5px" }}
+                      src={myImage5}
+                    />
+                  </div>
                 </div>
               </div>
 

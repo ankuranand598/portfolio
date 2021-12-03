@@ -1,5 +1,5 @@
 # React-portfolio
 
-A boilrplate react portfolio to showcase your projects and work
+A boilrplate react portfolio to showcase my projects and work
 
 ![](test.gif)

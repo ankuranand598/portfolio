@@ -19,6 +19,8 @@ import stocki from "../img/imgc.jpg";
 import stockj from "../img/imge.jpg";
 import stockk from "../img/img5.jpg";
 import stockl from "../img/img6.jpg";
+import myImage from "../img/icons8-github.svg";
+import myImg from "../img/icons8-heroku.svg";
 function Portfolio() {
   return (
     <section id="work" className="portfolio-mf sect-pt4 route">
@@ -101,6 +103,21 @@ function Portfolio() {
                 jsx-a11y/anchor-has-content warning
               </a>
             </div>
+            <a
+              href="https://github.com/pankajganjale/pocket-bakery-mart"
+              target="_blank"
+            >
+              <img
+                style={{
+                  height: "20px",
+                  marginLeft: "20px",
+                  marginLeft: "45%",
+                  marginTop: "-10px",
+                }}
+                src={myImage}
+                alt="hit"
+              />
+            </a>
           </div>
           <div className="col-md-4 card">
             <div className="work-box">
@@ -117,6 +134,7 @@ function Portfolio() {
                   <div className="row">
                     <div className="col-sm-8">
                       <h2 className="w-title">Lybrate.com Clone</h2>
+
                       <div className="w-more">
                         <span className="w-ctegory">
                           HTML5 CSS3 Express NodeJs VanillaJS
@@ -167,6 +185,33 @@ function Portfolio() {
                 jsx-a11y/anchor-has-content warning
               </a>
             </div>
+            <a
+              href="https://github.com/harshchaturvedi1/lybrate_clone"
+              target="_blank"
+            >
+              <img
+                style={{
+                  height: "20px",
+                  marginLeft: "20px",
+                  marginLeft: "45%",
+                  marginTop: "-10px",
+                }}
+                src={myImage}
+                alt="hit"
+              />
+            </a>
+            <a href="https://lybrate.herokuapp.com/" target="_blank">
+              <img
+                style={{
+                  height: "20px",
+                  marginLeft: "20px",
+                  marginLeft: "45%",
+                  marginTop: "-10px",
+                }}
+                src={myImg}
+                alt="hit"
+              />
+            </a>
           </div>
           <div className="col-md-4 card">
             <div className="work-box">
@@ -233,6 +278,21 @@ function Portfolio() {
                 jsx-a11y/anchor-has-content warning
               </a> */}
             </div>
+            <a
+              href="https://github.com/ankuranand598/joybuy_cloning_ankur"
+              target="_blank"
+            >
+              <img
+                style={{
+                  height: "20px",
+                  marginLeft: "20px",
+                  marginLeft: "45%",
+                  marginTop: "-10px",
+                }}
+                src={myImage}
+                alt="hit"
+              />
+            </a>
           </div>
           {/* <div className="col-md-4 card">
             <div className="work-box">
