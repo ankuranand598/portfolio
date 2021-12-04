@@ -1,23 +1,31 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bfabb4d9.chunk.css",
-    "main.js": "/portfolio/static/js/main.a2250dd7.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a2250dd7.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.f17a3bac.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f17a3bac.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.8850a738.chunk.css": "/portfolio/static/css/2.8850a738.chunk.css",
-    "static/js/2.7be9e9b1.chunk.js": "/portfolio/static/js/2.7be9e9b1.chunk.js",
-    "static/js/2.7be9e9b1.chunk.js.map": "/portfolio/static/js/2.7be9e9b1.chunk.js.map",
+    "static/js/2.39b649fd.chunk.js": "/portfolio/static/js/2.39b649fd.chunk.js",
+    "static/js/2.39b649fd.chunk.js.map": "/portfolio/static/js/2.39b649fd.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.dc409e7562e8e2d2209fef0031d7b442.js": "/portfolio/precache-manifest.dc409e7562e8e2d2209fef0031d7b442.js",
+    "precache-manifest.4e88e80dd48e7d450cbe8f470a44535d.js": "/portfolio/precache-manifest.4e88e80dd48e7d450cbe8f470a44535d.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.8850a738.chunk.css.map": "/portfolio/static/css/2.8850a738.chunk.css.map",
     "static/css/main.bfabb4d9.chunk.css.map": "/portfolio/static/css/main.bfabb4d9.chunk.css.map",
-    "static/js/2.7be9e9b1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7be9e9b1.chunk.js.LICENSE.txt",
+    "static/js/2.39b649fd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.39b649fd.chunk.js.LICENSE.txt",
     "static/media/Signup.png": "/portfolio/static/media/Signup.df5d5a85.png",
     "static/media/earth.jpg": "/portfolio/static/media/earth.67af05e1.jpg",
     "static/media/filter_box_1.png": "/portfolio/static/media/filter_box_1.0443352f.png",
     "static/media/font-awesome.css": "/portfolio/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/icons8-css3.svg": "/portfolio/static/media/icons8-css3.d10f4bf6.svg",
+    "static/media/icons8-github.svg": "/portfolio/static/media/icons8-github.642525f6.svg",
+    "static/media/icons8-heroku.svg": "/portfolio/static/media/icons8-heroku.aa5dd6d8.svg",
+    "static/media/icons8-html-5.svg": "/portfolio/static/media/icons8-html-5.a0657d1c.svg",
+    "static/media/icons8-javascript.svg": "/portfolio/static/media/icons8-javascript.7efb0618.svg",
+    "static/media/icons8-node-js.svg": "/portfolio/static/media/icons8-node-js.e7fb5976.svg",
+    "static/media/icons8-react.svg": "/portfolio/static/media/icons8-react.36b7b85f.svg",
+    "static/media/icons8-redux.svg": "/portfolio/static/media/icons8-redux.43e595c9.svg",
     "static/media/img1.jpg": "/portfolio/static/media/img1.4af6741d.jpg",
     "static/media/img2.jpg": "/portfolio/static/media/img2.fd54d9fb.jpg",
     "static/media/img3.jpg": "/portfolio/static/media/img3.9ce64667.jpg",
@@ -32,16 +40,15 @@
     "static/media/landing_page_1.png": "/portfolio/static/media/landing_page_1.c118c32c.png",
     "static/media/landing_page_2.png": "/portfolio/static/media/landing_page_2.87f51a9b.png",
     "static/media/landing_page_3.png": "/portfolio/static/media/landing_page_3.3194dc0c.png",
-    "static/media/male.png": "/portfolio/static/media/male.a82ab1cd.png",
     "static/media/male1.png": "/portfolio/static/media/male1.3ec3891b.png",
-    "static/media/myImage.png": "/portfolio/static/media/myImage.bd80794f.png",
-    "static/media/product_detail_1.png": "/portfolio/static/media/product_detail_1.ed0b373b.png"
+    "static/media/product_detail_1.png": "/portfolio/static/media/product_detail_1.ed0b373b.png",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.61c57759.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.8850a738.chunk.css",
-    "static/js/2.7be9e9b1.chunk.js",
+    "static/js/2.39b649fd.chunk.js",
     "static/css/main.bfabb4d9.chunk.css",
-    "static/js/main.a2250dd7.chunk.js"
+    "static/js/main.f17a3bac.chunk.js"
   ]
 }

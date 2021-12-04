@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "250a92d8bad9572253d4aede404435b6",
+    "revision": "9e35affea5d053b7e353183ff5135912",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "e961a2e42a638cec845e",
+    "revision": "2cd00b968684ad633c4f",
     "url": "/portfolio/static/css/2.8850a738.chunk.css"
   },
   {
-    "revision": "fe11d9cf8c7033c87857",
+    "revision": "68f6998948907621488a",
     "url": "/portfolio/static/css/main.bfabb4d9.chunk.css"
   },
   {
-    "revision": "e961a2e42a638cec845e",
-    "url": "/portfolio/static/js/2.7be9e9b1.chunk.js"
+    "revision": "2cd00b968684ad633c4f",
+    "url": "/portfolio/static/js/2.39b649fd.chunk.js"
   },
   {
     "revision": "332bf1b0d236b7fc5455596e6356764c",
-    "url": "/portfolio/static/js/2.7be9e9b1.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.39b649fd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fe11d9cf8c7033c87857",
-    "url": "/portfolio/static/js/main.a2250dd7.chunk.js"
+    "revision": "68f6998948907621488a",
+    "url": "/portfolio/static/js/main.f17a3bac.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -58,6 +58,38 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/portfolio/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "d10f4bf68a27526ef83fd9dfdc75317d",
+    "url": "/portfolio/static/media/icons8-css3.d10f4bf6.svg"
+  },
+  {
+    "revision": "642525f695e382a55e5991af2e3e77e9",
+    "url": "/portfolio/static/media/icons8-github.642525f6.svg"
+  },
+  {
+    "revision": "aa5dd6d833f6c703cd5f5dd94b67ac4b",
+    "url": "/portfolio/static/media/icons8-heroku.aa5dd6d8.svg"
+  },
+  {
+    "revision": "a0657d1cac3b20f1e113738056db3c63",
+    "url": "/portfolio/static/media/icons8-html-5.a0657d1c.svg"
+  },
+  {
+    "revision": "7efb0618760a882db2932c197b377241",
+    "url": "/portfolio/static/media/icons8-javascript.7efb0618.svg"
+  },
+  {
+    "revision": "e7fb59768394c3d3f70fdbfdb7953c36",
+    "url": "/portfolio/static/media/icons8-node-js.e7fb5976.svg"
+  },
+  {
+    "revision": "36b7b85f31f6999f552a500b99c855a0",
+    "url": "/portfolio/static/media/icons8-react.36b7b85f.svg"
+  },
+  {
+    "revision": "43e595c98488c0c652369791e4f16170",
+    "url": "/portfolio/static/media/icons8-redux.43e595c9.svg"
   },
   {
     "revision": "4af6741d92d8a26e9ca1347002f2424d",
@@ -128,19 +160,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/landing_page_3.3194dc0c.png"
   },
   {
-    "revision": "a82ab1cd3c28c0a07a4932d57176cb88",
-    "url": "/portfolio/static/media/male.a82ab1cd.png"
-  },
-  {
     "revision": "3ec3891b37f8b0765b554f10806f0b3f",
     "url": "/portfolio/static/media/male1.3ec3891b.png"
   },
   {
-    "revision": "bd80794fddbffb4031fab537cc898680",
-    "url": "/portfolio/static/media/myImage.bd80794f.png"
-  },
-  {
     "revision": "ed0b373b935f82d9f3faf003264a6234",
     "url": "/portfolio/static/media/product_detail_1.ed0b373b.png"
+  },
+  {
+    "revision": "61c577594b4a5a5ad3a3b6d7f37c98c5",
+    "url": "/portfolio/static/media/profile.61c57759.jpg"
   }
 ]);
