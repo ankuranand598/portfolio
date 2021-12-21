@@ -1,24 +1,24 @@
 import React from "react";
 import "./portfolio.module.css";
 //import stock
-import stock from "../img/landing_page_1.png";
-import stock1 from "../img/Signup.png";
-import stock2 from "../img/landing_page_2.png";
-import stock3 from "../img/product_detail_1.png";
-import stock4 from "../img/landing_page_3.png";
-import stock5 from "../img/filter_box_1.png";
+import stock from "../img/4.jpg";
+import stock1 from "../img/1.jpg";
+import stock2 from "../img/2.jpg";
+import stock3 from "../img/3.jpg";
+import stock4 from "../img/4.jpg";
+import stock5 from "../img/5.jpg";
 import stocka from "../img/img1.jpg";
 import stockb from "../img/img2.jpg";
 import stockc from "../img/img3.jpg";
 import stockd from "../img/img4.jpg";
 import stocke from "../img/img5.jpg";
 import stockf from "../img/img6.jpg";
-import stockg from "../img/imga.jpg";
-import stockh from "../img/imgb.jpg";
-import stocki from "../img/imgc.jpg";
-import stockj from "../img/imge.jpg";
+import stockg from "../img/homePage.jpg";
+import stockh from "../img/login.jpg";
+import stocki from "../img/product.jpg";
+import stockj from "../img/cart.jpg";
 import stockk from "../img/img5.jpg";
-import stockl from "../img/img6.jpg";
+import stockl from "../img/net.png";
 import myImage from "../img/icons8-github.svg";
 import myImg from "../img/icons8-heroku.svg";
 function Portfolio() {
@@ -54,9 +54,9 @@ function Portfolio() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">Pocket Bakery mart</h2>
+                      <h2 className="w-title">Mini-translator</h2>
                       <div className="w-more">
-                        <span className="w-ctegory">ReactJS,Firebase</span>
+                        <span className="w-ctegory">html,css,javascript</span>
                       </div>
                     </div>
                     <div className="col-sm-4">
@@ -115,6 +115,21 @@ function Portfolio() {
                   marginTop: "-10px",
                 }}
                 src={myImage}
+                alt="hit"
+              />
+            </a>
+            <a
+              href="https://ankuranand598.github.io/realme-dummy/"
+              target="_blank"
+            >
+              <img
+                style={{
+                  height: "20px",
+                  marginLeft: "20px",
+                  marginLeft: "45%",
+                  marginTop: "-10px",
+                }}
+                src={stockl}
                 alt="hit"
               />
             </a>
@@ -227,7 +242,7 @@ function Portfolio() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">Joybuy.com Clone</h2>
+                      <h2 className="w-title">Realme.com Clone</h2>
                       <div className="w-more">
                         <span className="w-ctegory">
                           HTML5 CSS3 EJs Express
@@ -279,7 +294,22 @@ function Portfolio() {
               </a> */}
             </div>
             <a
-              href="https://github.com/ankuranand598/joybuy_cloning_ankur"
+              href="https://github.com/ankuranand598/realme-dummy"
+              target="_blank"
+            >
+              <img
+                style={{
+                  height: "20px",
+                  marginLeft: "20px",
+                  marginLeft: "45%",
+                  marginTop: "-10px",
+                }}
+                src={myImage}
+                alt="hit"
+              />
+            </a>
+            <a
+              href="https://ankuranand598.github.io/realme-dummy/"
               target="_blank"
             >
               <img
