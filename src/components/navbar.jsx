@@ -2,7 +2,7 @@ import React from "react";
 import $ from "jquery";
 
 import logo1 from "../img/male1.png";
-import logo2 from "../img/profile.jpg";
+import logo2 from "../img/text.gif";
 
 class Navbar extends React.Component {
   constructor() {
@@ -87,11 +87,13 @@ class Navbar extends React.Component {
       >
         <div className="container">
           <a className="navbar-brand js-scroll" href="#page-top">
-            <img
+            {/* <img
               src={logo2}
               alt="logo"
-              style={{ maxWidth: "160px", borderRadius: "50%" }}
-            />
+              // style={{ maxWidth: "160px", borderRadius: "50%" }}
+            /> */}
+
+            <h2 style={{ fontFamily: "Pushster", color: "#00BCD4" }}>Ankur</h2>
           </a>
           <button
             className="navbar-toggler collapsed"

@@ -1,7 +1,7 @@
 import React from "react";
 import "./stars.scss";
 import Typed from "react-typed";
-
+import logo2 from "../img/profile.jpg";
 class Intro extends React.Component {
   render() {
     return (
@@ -14,14 +14,19 @@ class Intro extends React.Component {
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
+              <a className="navbar-brand js-scroll" href="#page-top">
+                <img
+                  src={logo2}
+                  alt="logo"
+                  style={{ maxWidth: "160px", borderRadius: "50%" }}
+                />
+              </a>
               <h1 className="intro-title mb-4">Hello, I am Ankur Anand</h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
                   <Typed
-                    strings={[
-                      "Full-Stack Web Developer"
-                    ]}
+                    strings={["Full-Stack Web Developer"]}
                     typeSpeed={80}
                     backDelay={1100}
                     backSpeed={30}

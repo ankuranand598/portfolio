@@ -17,14 +17,14 @@ import stockg from "../img/homePage.jpg";
 import stockh from "../img/login.jpg";
 import stocki from "../img/product.jpg";
 import stockj from "../img/cart.jpg";
-import stockk from "../img/img5.jpg";
+import stockk from "../img/ico.png";
 import stockl from "../img/net.png";
 import myImage from "../img/icons8-github.svg";
 import myImg from "../img/icons8-heroku.svg";
 function Portfolio() {
   return (
     <section id="work" className="portfolio-mf sect-pt4 route">
-      <div className="container">
+      <div className="container" style={{ width: "100%" }}>
         <div className="row">
           <div className="col-sm-12">
             <div className="title-box text-center">
@@ -38,7 +38,10 @@ function Portfolio() {
         </div>
         <div
           className="row"
-          // applying style after css
+          style={{
+            width: "100%",
+            display: "flex",
+          }}
         >
           <div className="col-md-4 card">
             <div className="work-box">
@@ -57,6 +60,10 @@ function Portfolio() {
                       <h2 className="w-title">Mini-translator</h2>
                       <div className="w-more">
                         <span className="w-ctegory">html,css,javascript</span>
+                        <p className="w-text">
+                          A simple mini translator used to convert from one
+                          language<br></br>to another language
+                        </p>
                       </div>
                     </div>
                     <div className="col-sm-4">
@@ -103,36 +110,44 @@ function Portfolio() {
                 jsx-a11y/anchor-has-content warning
               </a>
             </div>
-            <a
-              href="https://github.com/pankajganjale/pocket-bakery-mart"
-              target="_blank"
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-evenly",
+                marginTop: "-15px",
+              }}
             >
-              <img
-                style={{
-                  height: "20px",
-                  marginLeft: "20px",
-                  marginLeft: "45%",
-                  marginTop: "-10px",
-                }}
-                src={myImage}
-                alt="hit"
-              />
-            </a>
-            <a
-              href="https://ankuranand598.github.io/realme-dummy/"
-              target="_blank"
-            >
-              <img
-                style={{
-                  height: "20px",
-                  marginLeft: "20px",
-                  marginLeft: "45%",
-                  marginTop: "-10px",
-                }}
-                src={stockl}
-                alt="hit"
-              />
-            </a>
+              <a
+                href="https://github.com/pankajganjale/pocket-bakery-mart"
+                target="_blank"
+              >
+                <img
+                  style={{
+                    height: "30px",
+                    marginLeft: "20px",
+                    marginLeft: "45%",
+                    marginTop: "-10px",
+                  }}
+                  src={myImage}
+                  alt="hit"
+                />
+              </a>
+              <a
+                href="https://musing-nobel-3e8cc1.netlify.app/"
+                target="_blank"
+              >
+                <img
+                  style={{
+                    height: "30px",
+                    marginLeft: "20px",
+                    marginLeft: "45%",
+                    marginTop: "-10px",
+                  }}
+                  src={stockl}
+                  alt="hit"
+                />
+              </a>
+            </div>
           </div>
           <div className="col-md-4 card">
             <div className="work-box">
@@ -142,7 +157,7 @@ function Portfolio() {
                     src={stocka}
                     alt=""
                     className="img-fluid"
-                    style={{ height: "250px" }}
+                    style={{ height: "230px" }}
                   />
                 </div>
                 <div className="work-content">
@@ -154,6 +169,10 @@ function Portfolio() {
                         <span className="w-ctegory">
                           HTML5 CSS3 Express NodeJs VanillaJS
                         </span>{" "}
+                        <p className="w-text">
+                          A clone of very famous medical website where user can
+                          get all type of medical helps.
+                        </p>
                       </div>
                     </div>
                     <div className="col-sm-4">
@@ -200,33 +219,41 @@ function Portfolio() {
                 jsx-a11y/anchor-has-content warning
               </a>
             </div>
-            <a
-              href="https://github.com/harshchaturvedi1/lybrate_clone"
-              target="_blank"
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-evenly",
+                marginTop: "-15px",
+              }}
             >
-              <img
-                style={{
-                  height: "20px",
-                  marginLeft: "20px",
-                  marginLeft: "45%",
-                  marginTop: "-10px",
-                }}
-                src={myImage}
-                alt="hit"
-              />
-            </a>
-            <a href="https://lybrate.herokuapp.com/" target="_blank">
-              <img
-                style={{
-                  height: "20px",
-                  marginLeft: "20px",
-                  marginLeft: "45%",
-                  marginTop: "-10px",
-                }}
-                src={myImg}
-                alt="hit"
-              />
-            </a>
+              <a
+                href="https://github.com/harshchaturvedi1/lybrate_clone"
+                target="_blank"
+              >
+                <img
+                  style={{
+                    height: "30px",
+                    marginLeft: "20px",
+                    marginLeft: "45%",
+                    marginTop: "-10px",
+                  }}
+                  src={myImage}
+                  alt="hit"
+                />
+              </a>
+              <a href="https://lybrate.herokuapp.com/" target="_blank">
+                <img
+                  style={{
+                    height: "30px",
+                    marginLeft: "20px",
+                    marginLeft: "45%",
+                    marginTop: "-10px",
+                  }}
+                  src={myImg}
+                  alt="hit"
+                />
+              </a>
+            </div>
           </div>
           <div className="col-md-4 card">
             <div className="work-box">
@@ -247,6 +274,10 @@ function Portfolio() {
                         <span className="w-ctegory">
                           HTML5 CSS3 EJs Express
                         </span>
+                        <p className="w-text">
+                          Realme.com is an electronics website. A user can
+                          login, search and see products here.
+                        </p>
                       </div>
                     </div>
                     <div className="col-sm-4">
@@ -293,36 +324,42 @@ function Portfolio() {
                 jsx-a11y/anchor-has-content warning
               </a> */}
             </div>
-            <a
-              href="https://github.com/ankuranand598/realme-dummy"
-              target="_blank"
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-evenly",
+                marginTop: "-20px",
+              }}
             >
-              <img
-                style={{
-                  height: "20px",
-                  marginLeft: "20px",
-                  marginLeft: "45%",
-                  marginTop: "-10px",
-                }}
-                src={myImage}
-                alt="hit"
-              />
-            </a>
-            <a
-              href="https://ankuranand598.github.io/realme-dummy/"
-              target="_blank"
-            >
-              <img
-                style={{
-                  height: "20px",
-                  marginLeft: "20px",
-                  marginLeft: "45%",
-                  marginTop: "-10px",
-                }}
-                src={myImage}
-                alt="hit"
-              />
-            </a>
+              <a
+                href="https://github.com/ankuranand598/realme-dummy"
+                target="_blank"
+              >
+                <img
+                  style={{
+                    height: "30px",
+                    marginLeft: "20px",
+                    marginLeft: "45%",
+                  }}
+                  src={myImage}
+                  alt="hit"
+                />
+              </a>
+              <a
+                href="https://ankuranand598.github.io/realme-dummy/"
+                target="_blank"
+              >
+                <img
+                  style={{
+                    height: "30px",
+                    marginLeft: "20px",
+                    marginLeft: "45%",
+                  }}
+                  src={stockk}
+                  alt="hit"
+                />
+              </a>
+            </div>
           </div>
           {/* <div className="col-md-4 card">
             <div className="work-box">
